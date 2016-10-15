@@ -6,4 +6,5 @@ All of the snippets are free to use without any kind of credits. Not everything 
 Currently in the repository:
 
 -RunWorkflow                Run a workflow with Javascript (Dynamics CRM 2016)
+
 -getOrganisationDetails     Return Organisation Name, Server URL, Entity ID, Entity Name
