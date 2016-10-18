@@ -155,6 +155,42 @@ function changeForm(formid,formName) {
  *          Tested for Microsoft Dynamics CRM 2016
  */
 
+function setTabStatus (tabName, status)
+{
+    var tab = Xrm.Page.ui.tabs.get(tabname);
+    if (tab == null) {
+        consol.log("Error: The tab: " + tabname + " is not on the form");
+        return false;
+    }
+    else {
+        var tabsections =  tab.sections.get();
+        for (var i in tabsections) {
+            var secname = tabsections[i].getName();
+            setSectionStatus(tabName, status);
+        }
+        return true;
+    }
+}
+
+
+/**
+ *Syntax:   setTabStatus(tabName, status)
+ *Parameter:
+ *          tabName    =   String
+ *          status     =   Boolean
+ *
+ *Example:
+ *          setSectionStatus("Contacts",true);
+ *
+ *Return:
+ *          Success:    Returns true
+ *          Error:    Returns false
+ *
+ *Notes:
+ *          Tested for Microsoft Dynamics CRM 2016
+ */
+
+
 
 function setSectionStatus (sectionName, status)
 {
