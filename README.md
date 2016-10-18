@@ -12,6 +12,7 @@ Currently in the repository:
 
 -getCurrentFormID, changeForm   Returns FormID/Name, Changes to correct form
 
+-setSectionStatus, enable or disable a section
 
 
 Added snippedCollection.js containing all functions
