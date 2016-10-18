@@ -10,9 +10,10 @@ Currently in the repository:
 
 -getOrganisationDetails     Return Organisation Name, Server URL, Entity ID, Entity Name
 
--getCurrentFormID, changeForm   Returns FormID/Name, Changes to correct form
+-getCurrentFormID           changeForm   Returns FormID/Name, Changes to correct form
 
--setSectionStatus, enable or disable a section
+-setSectionStatus           enable or disable a section
 
+-setTabStatus               enable or disable a tab
 
 Added snippedCollection.js containing all functions
