@@ -16,4 +16,5 @@ Currently in the repository:
 
 -setTabStatus               enable or disable a tab
 
+
 Added snippedCollection.js containing all functions
