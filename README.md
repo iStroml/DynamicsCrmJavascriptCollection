@@ -16,5 +16,6 @@ Currently in the repository:
 
 -setTabStatus               enable or disable a tab
 
+-openPopupWindow            create a Popup
 
 Added snippedCollection.js containing all functions
