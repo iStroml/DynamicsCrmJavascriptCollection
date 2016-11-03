@@ -10,7 +10,7 @@ function openPopupWindow(name, url, width,height) {
         return true;
     }catch(err){
         console.log(err.message);
-        return true;
+        return false;
     }
 }
 
